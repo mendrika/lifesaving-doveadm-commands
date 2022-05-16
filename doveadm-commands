@@ -1,0 +1,11 @@
+
+## doveadm: get user quota
+
+```
+$ sudo doveadm sudo doveadm quota get -u mendrika@foo.com
+Quota name                        Type     Value   Limit                      %
+mendrika@foo.mg STORAGE 148203 1464844                                       10
+mendrika@foo.mg MESSAGE   8691       -                                        0
+
+```
+
