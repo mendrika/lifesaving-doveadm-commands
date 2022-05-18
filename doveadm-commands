@@ -32,7 +32,6 @@ doveadm: recalculate user quota
 
 $ sudo doveadm quota recalc -u mendrika@foo.mg
 
-
 ################################################################
 ################################################################
 doveadm: change user director backend manually
@@ -54,7 +53,7 @@ $ sudo doveadm fetch body  -u "mendrika@foo.mg" mailbox INBOX.\* subject "find a
 
 doveamd: may be delete also?
 
-$ sudo doveadm fetch body  -u "mendrika@foo.mg" mailbox INBOX.\* subject "you must delete me before it is too late"
+$ sudo doveadm expunge body  -u "mendrika@foo.mg" mailbox INBOX.\* subject "you must delete me before it is too late"
 
 ################################################################
 ####################LEAVE NO TRACE/WITNESS #####################
