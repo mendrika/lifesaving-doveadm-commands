@@ -10,10 +10,14 @@ userdb: mendrika@foo.mg
   uid       : 500
   gid       : 500
 
+################################################################
+################################################################
 doveadm: who is connected?
 
 $ sudo doveadm who
 
+################################################################
+################################################################
 doveadm: get user quota
 
 $ sudo doveadm sudo doveadm quota get -u mendrika@foo.com
@@ -21,15 +25,23 @@ Quota name                        Type     Value   Limit                      %
 mendrika@foo.mg STORAGE 148203 1464844                                       10
 mendrika@foo.mg MESSAGE   8691       -                                        0
 
+
+################################################################
+################################################################
 doveadm: recalculate user quota
 
 $ sudo doveadm quota recalc -u mendrika@foo.mg
 
+
+################################################################
+################################################################
 doveadm: change user director backend manually
 
 $ sudo doveadm director move mendrik@foo.mg other-backend.foo.mg
 
-##################### IT IS NOT A CRIME IF YOU DO NOT GET CAUGHT #####################
+################################################################
+########### IT IS NOT A CRIME IF YOU DO NOT GET CAUGHT #########
+################################################################
 
 doveadm: quickly find an e-mail with a specific subject in a user mailbox
 
@@ -44,4 +56,6 @@ doveamd: may be delete also?
 
 $ sudo doveadm fetch body  -u "mendrika@foo.mg" mailbox INBOX.\* subject "you must delete me before it is too late"
 
-##################### LEAVE NO TRACE/WITNESS #####################
+################################################################
+####################LEAVE NO TRACE/WITNESS #####################
+################################################################
