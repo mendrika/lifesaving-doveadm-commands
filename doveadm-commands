@@ -10,6 +10,9 @@ userdb: mendrika@foo.mg
   uid       : 500
   gid       : 500
 
+doveadm: who is connected?
+
+$ sudo doveadm who
 
 doveadm: get user quota
 
