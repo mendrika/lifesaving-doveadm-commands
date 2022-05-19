@@ -49,11 +49,11 @@ $ sudo doveadm search -u "mendrika@foo.mg" mailbox INBOX.Sent subject "find me i
 
 doveadm: why just find if we can open?
 
-$ sudo doveadm fetch body  -u "mendrika@foo.mg" mailbox INBOX.\* subject "find and open me"
+$ sudo doveadm fetch body -u "mendrika@foo.mg" mailbox INBOX.\* subject "find and open me"
 
 doveamd: may be delete also?
 
-$ sudo doveadm expunge body  -u "mendrika@foo.mg" mailbox INBOX.\* subject "you must delete me before it is too late"
+$ sudo doveadm expunge -u "mendrika@foo.mg" mailbox INBOX.\* subject "you must delete me before it is too late"
 
 ################################################################
 ####################LEAVE NO TRACE/WITNESS #####################
